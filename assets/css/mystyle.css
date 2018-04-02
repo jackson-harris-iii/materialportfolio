@@ -17,7 +17,6 @@ body {
 
 main {
     flex: 1 0 auto;
-    padding-top: 50px;
   }
 
 header, main, footer {
@@ -32,7 +31,6 @@ header, main, footer {
 
 .inner{
     background: linear-gradient(110deg, #7200ca 60%, #aa00ff 60%);
-    
     height: 500px;
 }
 
@@ -52,8 +50,8 @@ header, main, footer {
     max-width: 50%;
 }
 
-.main-card{
-    opacity: .7;
+.section-card{
+    margin-top: 50px;
 }
 
 .title-text{
@@ -103,7 +101,20 @@ a.button-collapse.top-nav {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    margin-top: 50px;
+}
+
+.lvlimage {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+
+}
+
+.portfolio-container{
+    padding-top: 10px;
 }
 
   
