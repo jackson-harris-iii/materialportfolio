@@ -30,13 +30,17 @@ $(document).ready( function(){
             }
         },
     ];
+    
 
     Materialize.scrollFire(options);
 
-    //initialize side nav
+    // trigger modal
+    $('.modal').modal();
+
+    //trigger side nav
     $(".button-collapse").sideNav();
 
-    //initialize slider
+    //trigger slider
     $('.slider').slider();
     // Pause slider
     $('.slider').slider('pause');
