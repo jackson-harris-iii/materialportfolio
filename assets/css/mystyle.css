@@ -72,6 +72,11 @@ header, main, footer {
     font-size: 125%;
 }
 
+.portfolio-title{
+    font-size: 175%;
+    padding-left: 25px;
+}
+
 a.button-collapse.top-nav.full {
     line-height: 122px;
 }
