@@ -1,5 +1,9 @@
 svg { display: none; }
-html { width: 100%; height: 100%; }
+html { 
+    width: 100%; 
+    height: 100%;
+    font-family: 'Muli', Calibri, Trebuchet, sans-serif; 
+}
 
 body {
     margin:0;
@@ -13,7 +17,18 @@ body {
 
 main {
     flex: 1 0 auto;
+    padding-top: 136px;
   }
+
+header, main, footer {
+    padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+    } 
 
 .inner{
     background: linear-gradient(110deg, #7200ca 60%, #aa00ff 60%);
@@ -22,7 +37,7 @@ main {
 }
 
 .top-nav{
-    height: 122px;
+    height: 136px;
 }
 
 .page-title{
@@ -46,6 +61,10 @@ a.button-collapse.top-nav {
     color: #fff;
     font-size: 36px;
     z-index: 2;
+}
+
+.sidenav {
+    color: #424242;
 }
 
   
