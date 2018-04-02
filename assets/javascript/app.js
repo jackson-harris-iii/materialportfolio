@@ -40,12 +40,13 @@ $(document).ready( function(){
         points: 'M28 0L28 34L0 50L0 84L28 100L56 84L56 50L28 34'
     });
 
-    var elem = document.querySelector('.fixed-action-btn');
-    var instance = M.FloatingActionButton.init(elem, {
-        direction: 'left',
-        hoverEnabled: false
-    });
-    $('.fixed-action-btn').floatingActionButton(open())
+    // Initialize collapse button
+    $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  //$('.collapsible').collapsible();
+
+    $(".dropdown-trigger").dropdown();
+    // $('.fixed-action-btn').floatingActionButton(open())
 
     // <svg xmlns='http://www.w3.org/2000/svg' width='56' height='100'>
     //     <rect width='56' height='100' fill='#000000' />

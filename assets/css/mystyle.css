@@ -6,10 +6,46 @@ body {
     padding:0;
     height:100%;
     width: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
+
+main {
+    flex: 1 0 auto;
+  }
 
 .inner{
     background: linear-gradient(110deg, #7200ca 60%, #aa00ff 60%);
-    opacity: 50%;
+    
     height: 500px;
 }
+
+.top-nav{
+    height: 122px;
+}
+
+.page-title{
+    line-height: 122px;
+    text-align: center;
+}
+
+a.button-collapse.top-nav.full {
+    line-height: 122px;
+}
+
+a.button-collapse.top-nav {
+    position: absolute;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    left: 7.5%;
+    top: 0;
+    float: none;
+    margin-left: 1.5rem;
+    color: #fff;
+    font-size: 36px;
+    z-index: 2;
+}
+
+  
