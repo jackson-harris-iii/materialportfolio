@@ -24,11 +24,11 @@ $(document).ready( function(){
                 Materialize.toast("Welcome to my Portfolio!", 4500);
             }
         },
-        {
-            selector: '#portfolio-items', offset: 400, callback: function (el) {
-                Materialize.showStaggeredList($(el));
-            }
-        },
+        // {
+        //     selector: '#portfolio-items', offset: 10, callback: function (el) {
+        //         Materialize.showStaggeredList($(el));
+        //     }
+        // },
     ];
     
 
